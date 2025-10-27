@@ -3,21 +3,21 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="w-full py-20 md:py-32 lg:py-40 xl:py-48">
+    <section className="w-full py-12 md:py-20 lg:py-24">
       <div className="container mx-auto px-4 text-center md:px-6">
         <div className="flex flex-col items-center space-y-6">
           <h1 className="font-headline text-4xl font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl">
-            Welcome to BizHub
+            Bienvenido a RyM
           </h1>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-            Your central hub for business excellence. We provide innovative solutions to help your company grow and succeed. Explore our services and meet the team dedicated to your success.
+          Recorré la provincia con nosotros. En RyM, conocemos cada camino y cada destino del interior. Disfrutá de un viaje cómodo y seguro, con el mejor servicio para conectar tus proyectos, tu familia y tus momentos en toda Formosa.
           </p>
           <div className="space-x-4">
             <Button asChild size="lg">
-              <Link href="#services">Our Services</Link>
+              <Link href="#services">Nuestros servicios</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="#contact">Contact Us</Link>
+              <Link href="#contact">Contáctanos</Link>
             </Button>
           </div>
         </div>

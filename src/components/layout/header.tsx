@@ -7,12 +7,9 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#services', label: 'Services' },
-  { href: '#team', label: 'Team' },
-  { href: '#generate', label: 'AI Mission' },
-  { href: '#testimonials', label: 'Testimonials' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#about', label: 'Acerca de' },
+  { href: '#services', label: 'Servicios' },
+  { href: '#contact', label: 'Contacto' },
 ];
 
 export function Header() {

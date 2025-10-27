@@ -9,7 +9,7 @@ export function Footer() {
           <Logo />
         </div>
         <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} BizHub. All rights reserved.
+          &copy; {currentYear} RyM. Todos los derechos reservados.
         </p>
       </div>
     </footer>

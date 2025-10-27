@@ -28,10 +28,10 @@ export default function Services() {
   const serviceImages = PlaceHolderImages.filter(p => p.id.startsWith('service-'));
 
   return (
-    <section id="services" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="services" className="w-full py-12 md:py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">Our Services</div>
+          <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">Nuestros servicios</div>
           <h2 className="font-headline mt-2 text-3xl font-bold tracking-tighter sm:text-4xl">What We Offer</h2>
           <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
             We provide a range of services designed to help your business succeed at every stage of its journey.
