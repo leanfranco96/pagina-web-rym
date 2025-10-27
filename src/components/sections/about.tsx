@@ -14,7 +14,7 @@ export default function About() {
   const aboutImage = PlaceHolderImages.find(p => p.id === 'about-us');
 
   return (
-    <section id="about" className="w-full py-12 md:py-20 lg:py-24 bg-card">
+    <section id="about" className="w-full py-6 md:py-10 lg:py-12 bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-4">

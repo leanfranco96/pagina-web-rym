@@ -28,7 +28,7 @@ export default function Services() {
   const serviceImages = PlaceHolderImages.filter(p => p.id.startsWith('service-'));
 
   return (
-    <section id="services" className="w-full py-12 md:py-20 lg:py-24">
+    <section id="services" className="w-full py-6 md:py-10 lg:py-12">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">Nuestros servicios</div>
