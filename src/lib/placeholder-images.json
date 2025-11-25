@@ -7,22 +7,40 @@
       "imageHint": "office collaboration"
     },
     {
-      "id": "service-strategy",
-      "description": "A person pointing at a whiteboard with charts.",
-      "imageUrl": "https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnVzaW5lc3MlMjBzdHJhdGVneXxlbnwwfHx8fDE3NTkyODU1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business strategy"
+      "id": "service-pasajeros",
+      "description": "Un colectivo de RyM en la ruta.",
+      "imageUrl": "https://i.imgur.com/jM86j1L.jpeg",
+      "imageHint": "bus travel"
     },
     {
-      "id": "service-marketing",
-      "description": "Digital marketing campaign dashboard on a screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkaWdpdGFsJTIwbWFya2V0aW5nfGVufDB8fHx8MTc1OTI2NDQxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "digital marketing"
+      "id": "service-especiales",
+      "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
+      "imageUrl": "https://i.imgur.com/G5g2mKw.jpeg",
+      "imageHint": "charter bus"
     },
     {
-      "id": "service-development",
-      "description": "Code on a computer screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1579403124614-197f69d8187b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1OTI1MzkxNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "software development"
+      "id": "service-encomiendas",
+      "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
+      "imageUrl": "https://i.imgur.com/JjA5v2P.jpeg",
+      "imageHint": "bus interior"
+    },
+    {
+      "id": "carousel-1",
+      "description": "Un colectivo de RyM en la ruta.",
+      "imageUrl": "https://i.imgur.com/jM86j1L.jpeg",
+      "imageHint": "bus travel"
+    },
+    {
+      "id": "carousel-2",
+      "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
+      "imageUrl": "https://i.imgur.com/G5g2mKw.jpeg",
+      "imageHint": "charter bus"
+    },
+    {
+      "id": "carousel-3",
+      "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
+      "imageUrl": "https://i.imgur.com/JjA5v2P.jpeg",
+      "imageHint": "bus interior"
     },
     {
       "id": "team-member-1",

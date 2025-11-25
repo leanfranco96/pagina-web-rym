@@ -1,26 +1,26 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Briefcase, BarChart3, Users } from 'lucide-react';
+import { Bus, Users, Map } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const services = [
   {
-    icon: <Briefcase className="h-8 w-8 text-primary" />,
-    title: 'Business Strategy',
-    description: 'We help you define your goals, identify opportunities, and create a roadmap for success.',
-    imageId: 'service-strategy',
-  },
-  {
-    icon: <BarChart3 className="h-8 w-8 text-primary" />,
-    title: 'Digital Marketing',
-    description: 'Our marketing experts will help you reach your target audience and grow your online presence.',
-    imageId: 'service-marketing',
+    icon: <Bus className="h-8 w-8 text-primary" />,
+    title: 'Transporte de Pasajeros',
+    description: 'Conectamos las localidades del interior de Formosa con un servicio regular, seguro y confiable.',
+    imageId: 'service-pasajeros',
   },
   {
     icon: <Users className="h-8 w-8 text-primary" />,
-    title: 'Development',
-    description: 'From web applications to mobile apps, our development team can build the tools you need.',
-    imageId: 'service-development',
+    title: 'Viajes Especiales',
+    description: 'Ofrecemos servicios de alquiler de unidades para excursiones, eventos y traslados grupales a medida.',
+    imageId: 'service-especiales',
+  },
+  {
+    icon: <Map className="h-8 w-8 text-primary" />,
+    title: 'Encomiendas',
+    description: 'Transportamos paquetes y encomiendas entre nuestras terminales, garantizando una entrega rápida y segura.',
+    imageId: 'service-encomiendas',
   },
 ];
 
@@ -28,13 +28,13 @@ export default function Services() {
   const serviceImages = PlaceHolderImages.filter(p => p.id.startsWith('service-'));
 
   return (
-    <section id="services" className="w-full py-6 md:py-10 lg:py-12">
+    <section id="services" className="w-full py-2 md:py-4 lg:py-6">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">Nuestros servicios</div>
-          <h2 className="font-headline mt-2 text-3xl font-bold tracking-tighter sm:text-4xl">What We Offer</h2>
+          <h2 className="font-headline mt-2 text-3xl font-bold tracking-tighter sm:text-4xl">Qué Ofrecemos</h2>
           <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
-            We provide a range of services designed to help your business succeed at every stage of its journey.
+            Brindamos una gama de servicios diseñados para satisfacer las necesidades de movilidad de nuestros pasajeros en toda la provincia.
           </p>
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
