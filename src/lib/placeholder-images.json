@@ -1,12 +1,6 @@
 {
   "placeholderImages": [
     {
-      "id": "about-us",
-      "description": "A modern office environment showing collaboration.",
-      "imageUrl": "https://images.unsplash.com/photo-1568992688065-536aad8a12f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvZmZpY2UlMjBjb2xsYWJvcmF0aW9ufGVufDB8fHx8MTc1OTI2ODMyMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "office collaboration"
-    },
-    {
       "id": "service-pasajeros",
       "description": "Un colectivo de RyM en la ruta.",
       "imageUrl": "https://i.imgur.com/jM86j1L.jpeg",
@@ -27,13 +21,13 @@
     {
       "id": "carousel-1",
       "description": "Un colectivo de RyM en la ruta.",
-      "imageUrl": "https://i.imgur.com/LsOSVEP.jpeg",
+      "imageUrl": "https://i.imgur.com/LgZ5T7B.jpeg",
       "imageHint": "bus travel"
     },
     {
       "id": "carousel-2",
       "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
-      "imageUrl": "https://i.imgur.com/LgZ5T7B.jpeg",
+      "imageUrl": "https://i.imgur.com/BZRzWAR.jpeg",
       "imageHint": "charter bus"
     },
     {
