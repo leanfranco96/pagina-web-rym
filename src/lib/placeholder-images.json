@@ -25,12 +25,6 @@
       "imageHint": "charter bus"
     },
     {
-      "id": "service-encomiendas-1",
-      "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
-      "imageUrl": "https://i.imgur.com/fxDjORO.jpeg",
-      "imageHint": "bus interior"
-    },
-    {
       "id": "carousel-1",
       "description": "Un colectivo de RyM en la ruta.",
       "imageUrl": "https://i.imgur.com/LsOSVEP.jpeg",

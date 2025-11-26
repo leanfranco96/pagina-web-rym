@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Bus, Users, Map } from 'lucide-react';
+import { Bus, Users } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
@@ -17,12 +17,6 @@ const services = [
     description: 'Ofrecemos servicios de alquiler de unidades para excursiones, eventos y traslados grupales a medida.',
     imageIdPrefix: 'service-especiales',
   },
-  {
-    icon: <Map className="h-8 w-8 text-primary" />,
-    title: 'Encomiendas',
-    description: 'Transportamos paquetes y encomiendas entre nuestras terminales, garantizando una entrega rápida y segura.',
-    imageIdPrefix: 'service-encomiendas',
-  },
 ];
 
 export default function Services() {
@@ -38,7 +32,7 @@ export default function Services() {
               Brindamos una gama de servicios diseñados para satisfacer las necesidades de movilidad de nuestros pasajeros en toda la provincia.
             </p>
         </div>
-        <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           {services.map((service) => {
             const serviceImages = PlaceHolderImages.filter(p => p.id.startsWith(service.imageIdPrefix));
             return (
