@@ -10,6 +10,7 @@ const navLinks = [
   { href: '#about', label: 'Acerca de' },
   { href: '#services', label: 'Servicios' },
   { href: '#mechanical-assistance', label: 'Auxilio Mecánico' },
+  { href: '#package-delivery', label: 'Paquetería' },
   { href: '#contact', label: 'Contacto' },
 ];
 
