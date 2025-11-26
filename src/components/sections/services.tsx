@@ -9,63 +9,60 @@ const services = [
     icon: <Bus className="h-8 w-8 text-primary" />,
     title: 'Transporte de Pasajeros',
     description: 'Conectamos las localidades del interior de Formosa con un servicio regular, seguro y confiable.',
+    imageId: 'service-pasajeros',
   },
   {
     icon: <Users className="h-8 w-8 text-primary" />,
     title: 'Viajes Especiales',
     description: 'Ofrecemos servicios de alquiler de unidades para excursiones, eventos y traslados grupales a medida.',
+    imageId: 'service-especiales',
   },
   {
     icon: <Map className="h-8 w-8 text-primary" />,
     title: 'Encomiendas',
     description: 'Transportamos paquetes y encomiendas entre nuestras terminales, garantizando una entrega rápida y segura.',
+    imageId: 'service-encomiendas',
   },
 ];
 
 export default function Services() {
-  const serviceImages = PlaceHolderImages.filter(p => p.id.startsWith('service-'));
-
   return (
     <section id="services" className="w-full py-2 md:py-4 lg:py-6">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-4">
+        <div className="mx-auto max-w-3xl text-center">
             <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm">Nuestros servicios</div>
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Qué Ofrecemos</h2>
-            <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <h2 className="font-headline mt-2 text-3xl font-bold tracking-tighter sm:text-4xl">
+              Qué Ofrecemos
+            </h2>
+            <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
               Brindamos una gama de servicios diseñados para satisfacer las necesidades de movilidad de nuestros pasajeros en toda la provincia.
             </p>
-          </div>
-          <div className="flex items-center justify-center">
-            <Carousel className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
-              <CarouselContent>
-                {serviceImages.map((image, index) => (
-                  <CarouselItem key={index}>
-                    <div className="p-1">
-                      <Card>
-                        <CardContent className="flex aspect-video items-center justify-center p-0">
-                          <Image
-                            src={image.imageUrl}
-                            alt={image.description}
-                            data-ai-hint={image.imageHint}
-                            width={550}
-                            height={310}
-                            className="rounded-lg object-cover"
-                          />
-                        </CardContent>
-                      </Card>
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
-          </div>
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, index) => (
-            <Card key={index} className="flex flex-col">
+          {services.map((service) => {
+            const serviceImage = PlaceHolderImages.find(p => p.id === service.imageId);
+            return (
+            <Card key={service.title} className="flex flex-col">
+              {serviceImage && (
+                 <Carousel className="w-full max-w-full">
+                    <CarouselContent>
+                        <CarouselItem>
+                            <CardContent className="p-0">
+                            <Image
+                                src={serviceImage.imageUrl}
+                                alt={serviceImage.description}
+                                data-ai-hint={serviceImage.imageHint}
+                                width={550}
+                                height={310}
+                                className="rounded-t-lg object-cover aspect-video"
+                            />
+                            </CardContent>
+                        </CarouselItem>
+                    </CarouselContent>
+                    <CarouselPrevious className="ml-16" />
+                    <CarouselNext className="mr-16"/>
+                 </Carousel>
+              )}
               <CardHeader className="flex flex-row items-center gap-4">
                 {service.icon}
                 <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
@@ -74,7 +71,7 @@ export default function Services() {
                 <p className="text-muted-foreground">{service.description}</p>
               </CardContent>
             </Card>
-          ))}
+          )})}
         </div>
       </div>
     </section>
