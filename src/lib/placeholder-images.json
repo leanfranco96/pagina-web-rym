@@ -7,12 +7,6 @@
       "imageHint": "bus travel"
     },
     {
-      "id": "service-pasajeros-2",
-      "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
-      "imageUrl": "https://i.imgur.com/8D9t0bK.jpeg",
-      "imageHint": "charter bus"
-    },
-    {
       "id": "service-pasajeros-3",
       "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
       "imageUrl": "https://i.imgur.com/fxDjORO.jpeg",
@@ -23,12 +17,6 @@
       "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
       "imageUrl": "https://i.imgur.com/8D9t0bK.jpeg",
       "imageHint": "charter bus"
-    },
-    {
-      "id": "carousel-1",
-      "description": "Un colectivo de RyM en la ruta.",
-      "imageUrl": "https://i.imgur.com/LsOSVEP.jpeg",
-      "imageHint": "bus travel"
     },
     {
       "id": "carousel-2",
@@ -83,48 +71,6 @@
       "description": "Interior de un depósito de paquetería.",
       "imageUrl": "https://i.imgur.com/jZNAzrJ.jpeg",
       "imageHint": "warehouse packages"
-    },
-    {
-      "id": "team-member-1",
-      "description": "Portrait of a female CEO.",
-      "imageUrl": "https://images.unsplash.com/photo-1573496527892-904f897eb744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8fHwxNzU5MjQ2NDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional woman"
-    },
-    {
-      "id": "team-member-2",
-      "description": "Portrait of a male CTO.",
-      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzU5Mjc3ODA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional man"
-    },
-    {
-      "id": "team-member-3",
-      "description": "Portrait of a female COO.",
-      "imageUrl": "https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHdvbWFufGVufDB8fHx8fDE3NTkyMzgzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business woman"
-    },
-    {
-      "id": "team-member-4",
-      "description": "Portrait of a male Head of Marketing.",
-      "imageUrl": "https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMG1hbnxlbnwwfHx8fDE3NTkyODU1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business man"
-    },
-    {
-      "id": "testimonial-1",
-      "description": "Portrait of a satisfied client.",
-      "imageUrl": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NTkyMTU3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "happy person"
-    },
-    {
-      "id": "testimonial-2",
-      "description": "Portrait of another satisfied client.",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwcGVyc29ufGVufDB8fHx8fDE3NTkyNTY2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smiling person"
-    },
-    {
-      "id": "testimonial-3",
-      "description": "Portrait of a third satisfied client.",
-      "imageUrl": "https://images.unsplash.com/photo-1642257859842-c95f9fa8121d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3Jwb3JhdGUlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTkyMTM2NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "corporate headshot"
     }
   ]
 }

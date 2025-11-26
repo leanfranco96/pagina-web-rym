@@ -57,8 +57,8 @@ export default function Services() {
                     </CarouselContent>
                     {serviceImages.length > 1 && (
                       <>
-                        <CarouselPrevious className="ml-16" />
-                        <CarouselNext className="mr-16"/>
+                        <CarouselPrevious />
+                        <CarouselNext />
                       </>
                     )}
                  </Carousel>
