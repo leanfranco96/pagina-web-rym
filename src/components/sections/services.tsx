@@ -9,19 +9,19 @@ const services = [
     icon: <Bus className="h-8 w-8 text-primary" />,
     title: 'Transporte de Pasajeros',
     description: 'Conectamos las localidades del interior de Formosa con un servicio regular, seguro y confiable.',
-    imageId: 'service-pasajeros',
+    imageIdPrefix: 'service-pasajeros',
   },
   {
     icon: <Users className="h-8 w-8 text-primary" />,
     title: 'Viajes Especiales',
     description: 'Ofrecemos servicios de alquiler de unidades para excursiones, eventos y traslados grupales a medida.',
-    imageId: 'service-especiales',
+    imageIdPrefix: 'service-especiales',
   },
   {
     icon: <Map className="h-8 w-8 text-primary" />,
     title: 'Encomiendas',
     description: 'Transportamos paquetes y encomiendas entre nuestras terminales, garantizando una entrega rápida y segura.',
-    imageId: 'service-encomiendas',
+    imageIdPrefix: 'service-encomiendas',
   },
 ];
 
@@ -40,27 +40,33 @@ export default function Services() {
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => {
-            const serviceImage = PlaceHolderImages.find(p => p.id === service.imageId);
+            const serviceImages = PlaceHolderImages.filter(p => p.id.startsWith(service.imageIdPrefix));
             return (
             <Card key={service.title} className="flex flex-col">
-              {serviceImage && (
+              {serviceImages.length > 0 && (
                  <Carousel className="w-full max-w-full">
                     <CarouselContent>
-                        <CarouselItem>
-                            <CardContent className="p-0">
-                            <Image
-                                src={serviceImage.imageUrl}
-                                alt={serviceImage.description}
-                                data-ai-hint={serviceImage.imageHint}
-                                width={550}
-                                height={310}
-                                className="rounded-t-lg object-cover aspect-video"
-                            />
-                            </CardContent>
-                        </CarouselItem>
+                        {serviceImages.map((image, index) => (
+                          <CarouselItem key={index}>
+                              <CardContent className="p-0">
+                              <Image
+                                  src={image.imageUrl}
+                                  alt={image.description}
+                                  data-ai-hint={image.imageHint}
+                                  width={550}
+                                  height={310}
+                                  className="rounded-t-lg object-cover aspect-video"
+                              />
+                              </CardContent>
+                          </CarouselItem>
+                        ))}
                     </CarouselContent>
-                    <CarouselPrevious className="ml-16" />
-                    <CarouselNext className="mr-16"/>
+                    {serviceImages.length > 1 && (
+                      <>
+                        <CarouselPrevious className="ml-16" />
+                        <CarouselNext className="mr-16"/>
+                      </>
+                    )}
                  </Carousel>
               )}
               <CardHeader className="flex flex-row items-center gap-4">

@@ -1,10 +1,22 @@
 {
   "placeholderImages": [
     {
-      "id": "service-pasajeros",
+      "id": "service-pasajeros-1",
       "description": "Un colectivo de RyM en la ruta.",
       "imageUrl": "https://i.imgur.com/566xx8r.jpeg",
       "imageHint": "bus travel"
+    },
+    {
+      "id": "service-pasajeros-2",
+      "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
+      "imageUrl": "https://i.imgur.com/8D9t0bK.jpeg",
+      "imageHint": "charter bus"
+    },
+    {
+      "id": "service-pasajeros-3",
+      "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
+      "imageUrl": "https://i.imgur.com/fxDjORO.jpeg",
+      "imageHint": "bus interior"
     },
     {
       "id": "service-especiales",
@@ -51,7 +63,7 @@
     {
       "id": "team-member-3",
       "description": "Portrait of a female COO.",
-      "imageUrl": "https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHdvbWFufGVufDB8fHx8MTc1OTIzODM4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHdvbWFufGVufDB8fHx8fDE3NTkyMzgzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "business woman"
     },
     {
@@ -69,7 +81,7 @@
     {
       "id": "testimonial-2",
       "description": "Portrait of another satisfied client.",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwcGVyc29ufGVufDB8fHx8MTc1OTI1NjYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwcGVyc29ufGVufDB8fHx8fDE3NTkyNTY2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smiling person"
     },
     {
