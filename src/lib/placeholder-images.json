@@ -19,13 +19,13 @@
       "imageHint": "bus interior"
     },
     {
-      "id": "service-especiales",
+      "id": "service-especiales-1",
       "description": "Otro modelo de colectivo de RyM listo para un viaje especial.",
       "imageUrl": "https://i.imgur.com/8D9t0bK.jpeg",
       "imageHint": "charter bus"
     },
     {
-      "id": "service-encomiendas",
+      "id": "service-encomiendas-1",
       "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
       "imageUrl": "https://i.imgur.com/fxDjORO.jpeg",
       "imageHint": "bus interior"
@@ -47,6 +47,30 @@
       "description": "Interior de un colectivo, mostrando el espacio para encomiendas.",
       "imageUrl": "https://i.imgur.com/bMQ8SZC.jpeg",
       "imageHint": "bus interior"
+    },
+    {
+      "id": "mechanical-assistance-1",
+      "description": "Camión de auxilio mecánico en la ruta.",
+      "imageUrl": "https://i.imgur.com/Q5fhbin.jpeg",
+      "imageHint": "tow truck road"
+    },
+    {
+      "id": "mechanical-assistance-2",
+      "description": "Mecánico trabajando en un motor.",
+      "imageUrl": "https://i.imgur.com/E7XbpC8.jpeg",
+      "imageHint": "mechanic engine"
+    },
+    {
+      "id": "mechanical-assistance-3",
+      "description": "Herramientas de mecánica.",
+      "imageUrl": "https://i.imgur.com/GYk7ypC.jpeg",
+      "imageHint": "mechanic tools"
+    },
+    {
+      "id": "mechanical-assistance-4",
+      "description": "Grúa remolcando un vehículo.",
+      "imageUrl": "https://i.imgur.com/M6816w2.jpeg",
+      "imageHint": "towing vehicle"
     },
     {
       "id": "team-member-1",
