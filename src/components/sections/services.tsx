@@ -47,7 +47,7 @@ export default function Services() {
                                   src={image.imageUrl}
                                   alt={image.description}
                                   data-ai-hint={image.imageHint}
-                                  width={550}
+                                  width={630}
                                   height={310}
                                   className="rounded-t-lg object-cover aspect-video"
                               />

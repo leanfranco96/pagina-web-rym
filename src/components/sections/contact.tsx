@@ -16,13 +16,19 @@ export default function Contact() {
             ¿Tienes alguna pregunta? Envíanos un mensaje y te responderemos lo antes posible.
           </p>
           <div className="space-y-4">
-            <div className="flex items-center gap-4">
-              <Phone className="h-6 w-6 text-accent" />
-              <a href="tel:+1234567890" className="text-lg hover:text-primary">+1 (234) 567-890</a>
-            </div>
+          <div className="flex items-start gap-2">
+            <Phone className="h-6 w-6 text-accent mt-1" />
+            <div className="flex flex-col">
+              <a href="tel:+5493704080997" className="text-lg hover:text-primary">+54 9 3704-080997</a>
+              <a href="tel:+5493704710421" className="text-lg hover:text-primary">+54 9 3704-710421</a>
+              <a href="tel:+5493704071340" className="text-lg hover:text-primary">+54 9 3704-071340</a>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">Auxicar</p>
+              <a href="tel:+5493704660512" className="text-lg hover:text-primary">+54 9 3704-660512</a>
+              </div>
+              </div>
             <div className="flex items-center gap-4">
               <Mail className="h-6 w-6 text-accent" />
-              <a href="mailto:contact@bizhub.com" className="text-lg hover:text-primary">contact@bizhub.com</a>
+              <a href="mailto:contact@bizhub.com" className="text-lg hover:text-primary">rm_srl@hotmail.com</a>
             </div>
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 flex-shrink-0 text-accent" />
