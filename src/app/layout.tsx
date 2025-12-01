@@ -6,7 +6,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'BizHub | Your Business Information Hub',
+  title: 'RyM',
   description: 'Showcasing company information with an AI-powered mission statement generator.',
 };
 
